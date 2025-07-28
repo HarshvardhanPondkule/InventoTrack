@@ -74,8 +74,10 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ---
 
-🚀 Getting Started
-📦 Installation
+##🚀 Getting Started
+
+###📦 Installation
+bash here getting satrted is comming after  next public url sperete this to sections
 
 ```bash
 # Clone the repository
