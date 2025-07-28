@@ -50,16 +50,16 @@ Create a `.env` file in the root and configure:
 
 ```env
 # Prisma Database URL (PostgreSQL via Accelerate)
-DATABASE_URL="prisma+postgres://accelerate.p"
+DATABASE_URL=
 
 # Cloudinary Configuration
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=RB
+CLOUDINARY_API_SECRET=
 
 # Cloudinary Upload Preset
-NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=F
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=ddjfu17wo
+NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
 
 # Clerk Authentication (User Auth)
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
