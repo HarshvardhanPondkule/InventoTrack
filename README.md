@@ -74,9 +74,9 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
+📦 Installation
 
-### 📦 Installation
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/invento-track.git
