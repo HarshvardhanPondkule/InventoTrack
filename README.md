@@ -30,16 +30,15 @@ Built for scalability and optimized user experience, InventoTrack simplifies inv
 
 ## 🛠️ Tech Stack
 
-| Technology        | Purpose                                    |
-|-------------------|--------------------------------------------|
-| [Next.js](https://nextjs.org)        | React framework for frontend & backend     |
-| [TypeScript](https://www.typescriptlang.org) | Static typing in JavaScript                 |
-| [Prisma](https://www.prisma.io)      | ORM for PostgreSQL                          |
-| [PostgreSQL](https://www.postgresql.org) | Relational database                         |
-| [Tailwind CSS](https://tailwindcss.com) | Utility-first styling                       |
-| [Clerk](https://clerk.dev)           | Authentication and user management          |
-| [Cloudinary](https://cloudinary.com) | Image storage and optimization              |
-| [Vercel](https://vercel.com)         | Hosting and deployment                      |
+- **⚛️ [Next.js](https://nextjs.org)** – A powerful **React framework** enabling **server-side rendering** and **full-stack capabilities**.
+- **🟦 [TypeScript](https://www.typescriptlang.org)** – Adds **static type checking** to JavaScript, ensuring safer and cleaner code.
+- **🧬 [Prisma](https://www.prisma.io)** – Modern **ORM** for type-safe database access and schema migrations.
+- **🐘 [PostgreSQL](https://www.postgresql.org)** – Robust and scalable **relational database** used for storing app data.
+- **🎨 [Tailwind CSS](https://tailwindcss.com)** – A **utility-first CSS framework** for fast, responsive, and maintainable UI design.
+- **🔐 [Clerk](https://clerk.dev)** – Provides **authentication, session management**, and **RBAC (role-based access control)**.
+- **🌤️ [Cloudinary](https://cloudinary.com)** – Cloud-based **image storage**, transformation, and optimization.
+- **🚀 [Vercel](https://vercel.com)** – Cloud platform for **hosting**, **CI/CD**, and **global deployments** with ease.
+
 
 ---
 
@@ -74,9 +73,9 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 ---
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
-###📦 Installation
+### 📦 Installation
 bash here getting satrted is comming after  next public url sperete this to sections
 
 ```bash
