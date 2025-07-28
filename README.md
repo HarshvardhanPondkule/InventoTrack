@@ -1,6 +1,18 @@
 # 📦 InventoTrack
 
-**InventoTrack** is a full-stack inventory management system built with **Next.js**, **Prisma**, **PostgreSQL**, and **Tailwind CSS**. It allows businesses to track their stock, manage products and categories, monitor low inventory levels, and get real-time insights via a clean and intuitive dashboard.
+## 📝 Project Overview
+
+**InventoTrack** is a modern full-stack inventory management system tailored for small to medium-sized businesses.  
+It offers real-time stock monitoring, product categorization, transaction tracking, and visual insights—all within an intuitive UI.
+
+Admin users can:
+- Securely add, edit, or remove products and categories
+- Receive low/out-of-stock alerts
+- Monitor inventory with dynamic dashboards
+- Manage product images via Cloudinary
+- Experience secure authentication using Clerk
+
+Built for scalability and optimized user experience, InventoTrack simplifies inventory operations efficiently.
 
 ---
 
@@ -31,5 +43,57 @@
 
 ---
 
-## 📂 Project Structure
+---
 
+## ⚙️ Environment Setup
+
+Create a `.env` file in the root and configure:
+
+```env
+# Prisma Database URL (PostgreSQL via Accelerate)
+DATABASE_URL="prisma+postgres://accelerate.p"
+
+# Cloudinary Configuration
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=RB
+
+# Cloudinary Upload Preset
+NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=F
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=ddjfu17wo
+
+# Clerk Authentication (User Auth)
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+# Clerk Auth Routing (Frontend Routes)
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+---
+
+📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/invento-track.git
+```
+
+```bash
+# Move into the project directory
+cd invento-track
+```
+
+```bash
+# Install dependencies
+npm install
+```
+
+```bash
+# Set up Prisma
+npx prisma generate
+npx prisma migrate dev --name init
+```
+
+```bash
+# Start the development server
+npm run dev
